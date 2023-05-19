@@ -1,8 +1,7 @@
-def converttoPDF_image(image_path, output_path, output_format):
+def converttoPDF_image(image_path, output_path):
     if not os.path.isfile(image_path):
         raise FileNotFoundError(f"The input image file '{image_path}' does not exist.")
-    if output_format.lower() not in ["pdf"]:
-        raise ValueError("Invalid output format. Only PDF and PS formats are supported.")
+    output_format = "pdf"
     with Image.open(image_path) as image:
         with warnings.catch_warnings():
             warnings.simplefilter("error")
