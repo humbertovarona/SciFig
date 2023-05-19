@@ -89,24 +89,24 @@ split_image(input_image_path, output_directory, num_parts)
   <tr>
     <th>
 		<p align="center">
-		<img src="/figures/parts/01_part.jpeg" width="500">
+		<img src="/figures/parts/01_part.jpeg" width="300">
 		</p>
 	</th>
     <th>
 		<p align="center">
-		<img src="/figures/parts/02_part.jpeg" width="500">
+		<img src="/figures/parts/02_part.jpeg" width="300">
 		</p>
     </th>
   </tr>
   <tr>
     <th>
 		<p align="center">
-		<img src="/figures/parts/03_part.jpeg" width="500">
+		<img src="/figures/parts/03_part.jpeg" width="300">
 		</p>
     </th>
     <th>
 		<p align="center">
-		<img src="/figures/parts/02_part.jpeg" width="500">
+		<img src="/figures/parts/02_part.jpeg" width="300">
 		</p>
     </th>
   </tr>
