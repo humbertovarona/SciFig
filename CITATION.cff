@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Software to compose figures for scientific articles (SciFig)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Varona
+    given-names: Humberto L.
+    email: humberto.varona@gmail.com
+    affiliation: >-
+      Department of Oceanography. Federal University
+      of Pernambuco. Recife-PE. Brazil
+    orcid: 'https://orcid.org/0000-0001-7405-4827'
+repository-code: 'https://doi.org/10.5281/zenodo.7951495'
+abstract: >-
+  Software to compose figures for scientific articles.
+keywords:
+  - Scientific articles
+  - Figures
+license: MIT
+version: '1.0'
+date-released: '2023-01-05'
