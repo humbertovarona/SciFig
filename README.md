@@ -1,8 +1,6 @@
 
 # SciFig
 
-# Description
-
 Software to compose figures for scientific articles
 
 # DOI
