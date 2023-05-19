@@ -153,3 +153,17 @@ unify_images(directory_path, output_image_name, tile_size)
 <img src="/figures/unified_image3.jpeg" width="300">
 </p>
 
+## Function compress_image
+
+```python
+input_image_path = "./test/fig1.png"
+compress_image(input_image_path, quality=50)
+```
+
+## Function converttoPDF_image
+
+```python
+input_image_path = "./test/fig1.jpeg"
+output_path = "./test/fig1.pdf"
+#converttoPDF_image(input_image_path, output_path)
+```
