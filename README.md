@@ -1,12 +1,11 @@
 
-
 # SciFig
 
 Software to compose figures for scientific articles
 
 # DOI
 
-[https://doi.org/10.5281/zenodo.7951495](https://doi.org/10.5281/zenodo.7951495)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7951495.svg)](https://doi.org/10.5281/zenodo.7951495)
 
 # Date-released 
 
@@ -57,8 +56,8 @@ import warnings
 ## Function increase_image_border
 
 ```python
-input_image_path = "/Users/varona/Laboro/pythonProject/test/fig1.jpeg"
-output_image_path = "/Users/varona/Laboro/pythonProject/test/new_fig2.jpeg"
+input_image_path = "./test/fig1.jpeg"
+output_image_path = "./test/new_fig2.jpeg"
 
 border_color = (0, 0, 255)
 border_width = 150
@@ -69,6 +68,47 @@ increase_image_border(input_image_path, output_image_path, border_color, border_
 <img src="/figures/new_fig2.jpeg" width="500">
 </p>
 
+## Function remove_white_borders
 
+```python
+input_image_path = "./test/fig1.jpeg"
+output_image_path = "./test/newtest_fig.jpeg"
+remove_white_borders(input_image_path, output_image_path)
+```
 
+## Function split_image
+
+```python
+output_directory = "./test/parts/"
+num_parts = 4 
+split_image(input_image_path, output_directory, num_parts)
+```
+
+<div style="overflow-x: auto;">
+<table style="width:100%">
+  <tr>
+    <th>
+		<p align="center">
+		<img src="/figures/parts/01_part.jpeg" width="500">
+		</p>
+	</th>
+    <th>
+		<p align="center">
+		<img src="/figures/parts/02_part.jpeg" width="500">
+		</p>
+    </th>
+  </tr>
+  <tr>
+    <th>
+		<p align="center">
+		<img src="/figures/parts/03_part.jpeg" width="500">
+		</p>
+    </th>
+    <th>
+		<p align="center">
+		<img src="/figures/parts/02_part.jpeg" width="500">
+		</p>
+    </th>
+  </tr>
+</table>
 
