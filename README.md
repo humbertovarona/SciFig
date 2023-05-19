@@ -112,3 +112,19 @@ split_image(input_image_path, output_directory, num_parts)
   </tr>
 </table>
 
+## Function unify_images
+
+```python
+tile_size = (4, 1)
+
+directory_path = "./test/parts/"
+output_image_name = "./test/unified_image.jpeg"
+
+unify_images(directory_path, output_image_name, tile_size)
+```
+
+<p align="center">
+<img src="/figures/unified_image.jpeg" width="500">
+</p>
+
+
