@@ -127,4 +127,34 @@ unify_images(directory_path, output_image_name, tile_size)
 <img src="/figures/unified_image.jpeg" width="500">
 </p>
 
+```python
+tile_size = (3, 2)
+
+directory_path = "./test/parts/"
+output_image_name = "./test/unified_image.jpeg"
+
+unify_images(directory_path, output_image_name, tile_size)
+```
+
+<p align="center">
+<img src="/figures/unified_image2.jpeg" width="500">
+</p>
+
+
+<p align="center">
+<img src="/figures/unified_image.jpeg" width="500">
+</p>
+
+```python
+tile_size = (1, 4)
+
+directory_path = "./test/parts/"
+output_image_name = "./test/unified_image.jpeg"
+
+unify_images(directory_path, output_image_name, tile_size)
+```
+
+<p align="center">
+<img src="/figures/unified_image3.jpeg" width="500">
+</p>
 
