@@ -86,6 +86,7 @@ split_image(input_image_path, output_directory, num_parts)
 <table style="width:100%">
   <tr>
     <th>
+	    	01_part.jpeg
 		<p align="center">
 		<img src="/figures/parts/01_part.jpeg" width="300">
 		</p>
