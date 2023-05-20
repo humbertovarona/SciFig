@@ -167,5 +167,5 @@ compress_image(input_image_path, quality=50)
 ```python
 input_image_path = "./test/fig1.jpeg"
 output_path = "./test/fig1.pdf"
-#converttoPDF_image(input_image_path, output_path)
+converttoPDF_image(input_image_path, output_path)
 ```
