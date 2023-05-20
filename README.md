@@ -31,9 +31,7 @@ import os
 import warnings
 ```
 
-<p align="center">
-<img src="https://s3-eu-west-1.amazonaws.com/openreseurope/manuscripts/17011/12792983-3e30-4d0e-9fad-d0a7989fdc91_figure1.gif" width="500">
-</p>
+[![Open Research Europe](https://s3-eu-west-1.amazonaws.com/openreseurope/manuscripts/17011/12792983-3e30-4d0e-9fad-d0a7989fdc91_figure1.gif "Idealized hydrodynamical numerical model dataset with no-river runoff at the western tropical North Atlantic")](https://open-research-europe.ec.europa.eu/articles/3-67/v1#referee-response-31414)
 
 
 # Function list
