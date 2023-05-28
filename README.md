@@ -13,8 +13,11 @@ Software to compose figures for scientific articles
 
 # Version
 
-1.0
+![](https://img.shields.io/badge/Version%3A-1.0-success)
 
+# License
+
+![](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)
 
 # Requirements
 
